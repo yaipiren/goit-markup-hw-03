@@ -112,6 +112,12 @@ ul {
 }
 
 .button {
+  position: absolute;
+  padding: 10px 24px;
+  border: 0;
+  min-width: 200px;
+  min-height: 50px;
+  text-align: center;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -120,6 +126,7 @@ ul {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button:hover {
@@ -144,6 +151,7 @@ ul {
 }
 
 .principle-item {
+  margin: 0 0 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -160,6 +168,7 @@ ul {
 }
 
 .h-activity {
+  margin: 0 0 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -173,6 +182,7 @@ ul {
 }
 
 .h-team {
+  margin: 0 0 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -227,6 +237,8 @@ ul {
 }
 
 .project-item {
+  margin: 0;
+  padding: 0;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -235,6 +247,8 @@ ul {
 }
 
 .project-item-description {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -242,6 +256,12 @@ ul {
 }
 
 .navigation-button {
+  padding: 6px 22px;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  border: 0;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -252,6 +272,26 @@ ul {
   cursor: pointer;
 }
 
+.btn-one {
+  min-width: 23px;
+}
+
+.btn-two {
+  min-width: 100px;
+}
+
+.btn-three {
+  min-width: 68px;
+}
+
+.btn-four {
+  min-width: 103px;
+}
+
+.btn-five {
+  min-width: 130px;
+}
+
 .navigation-button:focus {
   color: #ffffff;
   background-color: #2196f3;
@@ -260,6 +300,11 @@ ul {
 .navigation-button:hover {
   color: #ffffff;
   background-color: #2196f3;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
 }
 
 .card {
@@ -288,4 +333,39 @@ ul {
 
 .adress-link:focus {
   color: var(--accent-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+/* BOX */
+
+.container {
+  width: 1230px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+.section {
+  padding: 94px 0;
+}
+.section-activity {
+  padding: 0 0 94px;
 }
